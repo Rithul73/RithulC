@@ -56,6 +56,21 @@ public class CardTrick {
     }
 
     private static void printInfo() {
-        // ... existing printInfo method ...
+       private static void printInfo() {
+    System.out.println("Congratulations, you guessed right!");
+    System.out.println();
+    
+    System.out.println("My name is Rithul Chandran");
+    System.out.println();
+    
+    System.out.println("My career ambitions is to become a Software Engineer at Google");
+    System.out.println();  
+
+    System.out.println("My hobbies includes: ");
+    System.out.println("Football. Playing football is my number one hobby.");
+    System.out.println("Otherthan playing football I spent my free time to watch webseries.");
+    System.out.println();
+}
+
     }
 }
