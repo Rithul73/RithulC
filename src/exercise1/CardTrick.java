@@ -27,7 +27,7 @@ public class CardTrick {
             hand[i].setValue(value);
             hand[i].setSuit(suit);
             // Uncomment the following line for debugging purposes to see the generated cards
-            // System.out.println(hand[i].getValue() + " of " + hand[i].getSuit());
+            System.out.println(hand[i].getValue() + " of " + hand[i].getSuit());
         }
 
         // Asking the user for card value and suit
