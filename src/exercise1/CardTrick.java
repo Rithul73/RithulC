@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 /**
  * A class that fills a hand of 7 cards with random Card Objects and then asks the user to pick a card.
- * It then searches the array of cards for the match to the user's card. 
+ * It then searches the array of cards for the match to the user's card.
  * To be used as starting code in Exercise
  *
  * Modified by Rithul Chandran on 24/01/2024
- * @author Rithul Chandran 
- 
+ * @author Rithul Chandran
+  
  */
 public class CardTrick {
 
@@ -26,6 +26,8 @@ public class CardTrick {
             hand[i] = new Card();
             hand[i].setValue(value);
             hand[i].setSuit(suit);
+            // Uncomment the following line for debugging purposes to see the generated cards
+            // System.out.println(hand[i].getValue() + " of " + hand[i].getSuit());
         }
 
         // Asking the user for card value and suit
@@ -47,7 +49,7 @@ public class CardTrick {
         if (found) {
             printInfo();
         } else {
-            System.out.println("Sorry, no match found!");
+            System.out.println("Sorry, your card was not found in the hand.");
         }
 
         scanner.close();
